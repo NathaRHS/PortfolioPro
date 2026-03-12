@@ -1,0 +1,100 @@
+:root {
+  --tailleImage: 800px;
+  --textColor : white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: auto;
+}
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins";
+  background: linear-gradient(to right,#8c1105,#25221e);
+  color: var(--textColor);
+}
+.container .hero {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+.container .hero .right img {
+  width: var(--tailleImage);
+}
+.container .hero .left .buttons button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  font-weight: 900;
+}
+
+.container .hero .left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 50px;
+  color: white;
+}
+
+.texts {
+    width: 80%;
+    margin: 20px;
+}
+#Metier {
+  font-size: 4rem;
+    color: whi;
+
+}
+
+section {
+    display: flex;
+  height: 100vh;
+  align-items: center;
+  width: 100%;
+}
+#main {
+  background-color: black;
+  color: white;
+  margin-right: 12px    ;
+}
+#secondaryButton {
+  background-color: white;
+  border: 1px solid black;
+}
+.work-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.work-detail-info {
+    display: grid;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 20% 80%;
+    gap: 20px;
+}
+
+.work-detail hr{
+    width: 40%;
+}
+.description{
+    width: 80%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
