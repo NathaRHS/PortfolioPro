@@ -1,10 +1,12 @@
 :root {
   --tailleImage: 800px;
-  --textColor : white;
+  --textColor: white;
+  --lightColor: white;
+  --darkColor: black;
 }
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 html,
 body {
@@ -17,7 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Poppins";
-  background: linear-gradient(to right,#8c1105,#25221e);
+  background: linear-gradient(to right, #8c1105, #25221e);
   color: var(--textColor);
 }
 .container .hero {
@@ -46,55 +48,49 @@ body {
 }
 
 .texts {
-    width: 80%;
-    margin: 20px;
+  width: 80%;
+  margin: 20px;
 }
 #Metier {
   font-size: 4rem;
-    color: whi;
-
+  color: whi;
 }
 
 section {
-    display: flex;
-  height: 100vh;
-  align-items: center;
+  display: flex;
   width: 100%;
+  height: 100vh;
 }
 #main {
   background-color: black;
   color: white;
-  margin-right: 12px    ;
+  margin-right: 12px;
 }
 #secondaryButton {
   background-color: white;
   border: 1px solid black;
 }
-.work-detail {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.quality-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.boxWork {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-
-.work-detail-info {
-    display: grid;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: 20% 80%;
-    gap: 20px;
+.boxWork #title {
+margin-bottom: 60px;
 }
 
-.work-detail hr{
-    width: 40%;
+hr {
+  border: 0.5px soolid white;
 }
-.description{
-    width: 80%;
-    margin: 20px;
-    display: flex;
-    align-items: center;
+.workDetail {
+  display: flex;
+  justify-content: space-between;
 }
